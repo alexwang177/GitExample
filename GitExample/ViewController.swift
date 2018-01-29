@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        func buttonClicked(_sender: UIButton){
+            print("This is a git tutorial")
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
